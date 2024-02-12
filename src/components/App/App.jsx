@@ -16,7 +16,9 @@ export const App = () => {
         image={userData.avatar}
         stats={userData.stats}
         />
-          
+          <FriendList friends={friends} />
+          <TransactionHistory items={transactions} />
+          </>
   );
 };
 
