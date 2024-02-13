@@ -1,0 +1,71 @@
+.profileContainer {
+    max-width: 760px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.profileInfor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.profileImg {
+    max-width: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #2c2c2c;
+}
+
+.profileName {
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+.profileUsername {
+    font-size: 44px;
+    color: #8b8b8b;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.profileLocation {
+    font-size: 44px;
+    color: #8b8b8b;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.profileStats {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    border-top: 2px solid #2c2c2c;
+}
+
+.profileStatsItem {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+    background-color: #cccccc;
+}
+
+.profileStatsItem:not(:last-child) {
+    border-right: 2px solid #2c2c2c;
+}
+
+.profileStatsNumber {
+    margin-top: 8px;
+    font-weight: 700;
+}
